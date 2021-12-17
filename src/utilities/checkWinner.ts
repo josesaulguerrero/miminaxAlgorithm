@@ -1,8 +1,8 @@
-import { Board, playerMark } from "@types";
+import { Board, PlayerMark } from "@types";
 
 export const checkWinner = (
 	gameBoard: Board,
-	playerMark: playerMark
+	playerMark: PlayerMark
 ): boolean => {
 	const winCombinations: number[][] = [
 		[0, 1, 2],
